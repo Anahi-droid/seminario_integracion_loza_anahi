@@ -1,0 +1,161 @@
+==========================================
+
+GENERAL / OS FILES
+
+==========================================
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+==========================================
+
+EDITORS & IDEs
+
+==========================================
+
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.project
+.classpath
+.settings/
+
+==========================================
+
+PYTHON & FASTAPI (UV VENV & STANDARD)
+
+==========================================
+
+Caching and compilation
+
+pycache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+Virtual environments (Standard & UV)
+
+.venv/
+venv/
+ENV/
+env/
+.env/
+uv.lock
+
+Testing & Coverage
+
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pytype/
+.cython/
+
+FastAPI specific local artifacts
+
+*.sqlite
+*.sqlite3
+instance/
+.webassets-cache
+
+==========================================
+
+NODE.JS / BACKEND
+
+==========================================
+
+Dependency directories
+
+/node_modules/
+node_modules/
+
+Optional npm cache directory
+
+.npm
+
+Optional eslint cache
+
+.eslintcache
+
+Optional stylelint cache
+
+.stylelintcache
+
+Output of 'npm pack'
+
+*.tgz
+
+Yarn Integrity file
+
+.yarn-integrity
+
+dotenv environment variables file (keep template)
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+==========================================
+
+ANGULAR / FRONTEND
+
+==========================================
+
+Compiled output
+
+/dist/
+/tmp/
+/out-tsc/
+/bazel-out/
+
+Angular Workspace specific
+
+.angular/
+
+Server-side rendering output
+
+.nestjs/
