@@ -12,3 +12,6 @@ class Guerrero:
         print("Raza", self.raza)
 
 goku = Guerrero("Goku", "Saiyajin")
+
+goku.mostrar_info()
+print(goku.nombre)
